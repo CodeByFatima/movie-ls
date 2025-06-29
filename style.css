@@ -1,0 +1,36 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.dom-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 3.5rem;
+    gap: 30px;
+}
+
+
+.hover_effect .img{
+    transition: transform 0.7s ease;
+}
+
+.hover_effect:hover .img{
+    transform: scale(1.1) translateZ(50px);
+}
+
+button {
+    font-weight: bold !important ;
+}
+
+.img {
+    width: 258px;
+    border-radius: 15px;
+    border: 2px solid yellow;
+};
+
+
+
+
